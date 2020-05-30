@@ -1,0 +1,23 @@
+{
+    "compilerOptions": {
+        "sourceMap": true,
+        "module": "commonjs",
+        "target": "es6",
+        "outDir": "./dist",
+        "rootDir": "./src",
+        "declaration": true,
+        "declarationDir": "./dist/types",
+        "declarationMap": true,
+        "removeComments": false,
+        "noImplicitAny": false,
+        "experimentalDecorators": true,
+        "esModuleInterop": true,
+        "lib": [
+            "ES2018",
+            "es6",
+            "dom"
+        ]
+    },
+    "exclude": ["./node_modules", "./dist", "**/__test__", "*.spec.ts"],
+    "include": ["./src"]
+}
